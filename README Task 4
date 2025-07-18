@@ -1,0 +1,46 @@
+📌 Name: NIVEDHA M
+
+Company: CodeAlpha
+Student ID: CA/JU1/32572
+Domain: Frontend Development
+Duration: July to August 2025
+Mentor: Swati Srivastava
+
+
+
+🧠 Overview of the Project
+
+Project: Music Player 🎵
+
+
+
+🎯 Objective:
+
+To build a simple and elegant music player interface that allows users to play, pause, skip tracks, control volume, and view song details — using HTML, CSS, and JavaScript.
+
+
+
+⚙️ Technologies Used:
+
+HTML – Audio elements and structure
+CSS – Interface styling, buttons, and layout
+JavaScript – Audio control and playback functions
+
+
+
+
+🛠️ Key Features:
+
+Play, Pause, Next, and Previous buttons
+Display of Song Title, Artist, and Duration
+Volume control and progress bar
+Bonus: Playlist and Autoplay options (optional)
+
+
+
+💡 Key Insights Gained:
+
+Learned handling of HTML5 <audio> element via JavaScript
+Enhanced skills in interactive UI/UX design
+Gained experience in real-time media control
+Improved understanding of event listeners and DOM updates
