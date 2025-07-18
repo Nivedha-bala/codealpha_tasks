@@ -1,0 +1,41 @@
+  📌 Name: NIVEDHA M
+
+Company: CodeAlpha
+Student ID: CA/JU1/32572
+Domain: Frontend Development
+Duration: July to August 2025
+Mentor: Swati Srivastava
+
+
+🧠 Overview of the Project
+
+
+Project: Basic Calculator 🧮
+
+
+🎯 Objective:
+
+To build a fully functional basic calculator using HTML, CSS, and JavaScript, capable of performing simple arithmetic operations like addition, subtraction, multiplication, and division.
+
+
+⚙️ Technologies Used:
+
+HTML – Structure of the calculator and buttons
+CSS – Styling and layout of calculator display and keys
+JavaScript – Handling calculations, button clicks, and screen updates
+
+
+🛠️ Key Features:
+
+Supports all basic arithmetic operations: +, -, ×, ÷
+Responsive layout for mobile and desktop
+Clear screen (C) and real-time input handling
+Bonus: Keyboard input support (optional)
+
+
+💡 Key Insights Gained:
+
+Mastered DOM manipulation with JavaScript
+Understood event handling and dynamic input
+Practiced clean UI/UX layout with responsive design
+Boosted confidence in developing logic-based web apps
