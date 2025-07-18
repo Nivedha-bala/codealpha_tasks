@@ -1,55 +1,62 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #f2f2f2;
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center;     /* Center vertically */
-  height: 100vh;
-  margin: 0;               /* Remove default browser spacing */
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: #f8f9fa;
+  color: #333;
 }
 
-.calculator {
-  background: white;
-  padding: 20px;
-  border-radius: 30px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  width: 310px; /* Adjusted width */
-  box-sizing: border-box;
+header {
+  background: #6c63ff;
+  color: #f8f9fa;
+  padding: 1em;
+  text-align: center;
+}
+header h1:nth-of-type(2) {
+  font-size: 1.4em;
+  margin-top: -5px;
+  font-weight: 500;
+  color: white;
 }
 
-#display {
-  width: 100%;
-  height: 50px;
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #6c63ff;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #e0e0e0;
+  text-align: center;
   padding: 10px;
-  font-size: 1.2rem;
-  text-align: right;
-  border: none;
-  background: #f9f9f9;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  box-sizing: border-box;
-}
-
-.buttons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-}
-
-button {
-  padding: 20px;
-  font-size: 1.2rem;
-  border: none;
-  background: #d9d9d9;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-button:hover {
-  background: #c1c1c1;
-}
-
-button:active {
-  background: #a9a9a9;
+  font-size: 14px;
 }
