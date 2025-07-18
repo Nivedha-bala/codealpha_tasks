@@ -1,0 +1,143 @@
+PERSONAL PORTFOLIO WEBSITE 
+
+/*index.html*/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nivedha's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Nivedha M </h1>
+    <h1>Frontend Developer</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a 3rd year B.Tech Information Technology student at University College of Engineering, BIT Campus, Anna University, Tiruchirappalli (2023–2027). Currently building strong foundations in DSA, Web Dev & Data Science. Passionate about Full-Stack, Software, and Data-Driven Development.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>Java</li>
+      <li>C</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>🎮 Guess the Number Game (HTML,CSS,JavaScript)</li>
+      <li>🖼️ HTML Web Page Design</li>
+      <li>📟Simple Calculator (HTML,CSS,JavaScript)</li>
+      <li>🎧 Music Player using JavaScript</li>
+      <li>📱 Personal Portfolio Website (HTML,CSS,JavaScript)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:nivedhabala0201@gmail.com">nivedhabala0201@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/nivedhabala0201" target="_blank">linkedin.com/in/nivedhabala0201</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Nivedha | CodeAlpha Intern</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+/*style.css*/
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background: #6c63ff;
+  color: #f8f9fa;
+  padding: 1em;
+  text-align: center;
+}
+header h1:nth-of-type(2) {
+  font-size: 1.4em;
+  margin-top: -5px;
+  font-weight: 500;
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #6c63ff;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #e0e0e0;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/*script.css*/
+
+// Smooth scroll animation (optional if scroll-behavior in CSS doesn't work)
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href'))
+      .scrollIntoView({ behavior: 'smooth' });
+  });
+});
